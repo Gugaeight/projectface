@@ -1,0 +1,55 @@
+@media all and (max-width: 470px) {
+    .navigation img:nth-child(1),
+    .navigation img:nth-child(2),
+    .face-one,
+    .face-four {
+        display: none;
+    }
+
+    .face-two {
+        /*position settings*/
+        top: -80px;
+        right: 10%;
+    }
+
+    .face-three {
+        /*position settings*/
+        top: -80px;
+        right: 10%;
+    }
+
+    .awesome:nth-child(3) .card {
+        border: none;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .reviews,
+    .reviews-rest {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .reviews-rest {
+        flex-basis: 100%;
+    }
+
+    .reviews > *:not(.reviews-rest) {
+        flex-basis: 45%;
+    }
+
+    .reviews-rest > * {
+        flex-basis: 45%;
+    }
+
+    .review-two,
+    .review-six {
+        display: flex;
+    }
+
+    .card-rev > img:nth-child(2) {
+        width: 30%;
+    }
+}
